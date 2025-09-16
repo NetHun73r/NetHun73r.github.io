@@ -1,0 +1,140 @@
+/* Add shadows to create the "card" effect */
+.mobile {
+    box-shadow: 0 4px 8px 0 rgba(192, 35, 35, 0.788);
+    transition: 0.3s;
+    border-radius: 10px;
+    display: inline-block;
+
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    max-width: 40rem;
+    min-width: 7rem;
+    border: 1px solid white;
+}
+
+.mobile:hover {
+    box-shadow: 0 8px 24px 0 rgba(192, 35, 35, 0.788);
+}
+
+.mobile-image {
+    border-radius: 10px 10px 10px 10px;
+    height: auto;
+    object-fit: contain;
+}
+
+.gifs {
+    box-shadow: 0 4px 8px 0 rgba(192, 35, 35, 0.788);
+    transition: 0.3s;
+    border-radius: 10px;
+    display: inline-block;
+
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    max-width: 100rem;
+    min-width: 7rem;
+    border: 1px solid white;
+}
+
+.gifs:hover {
+    box-shadow: 0 8px 24px 0 rgba(192, 35, 35, 0.788);
+}
+
+.mini {
+    box-shadow: 0 4px 8px 0 rgba(192, 35, 35, 0.788);
+    transition: 0.3s;
+    border-radius: 10px;
+    display: inline-block;
+
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    max-width: 20rem;
+    min-width: 7rem;
+    border: 1px solid white;
+}
+
+.mini:hover {
+    box-shadow: 0 8px 24px 0 rgba(192, 35, 35, 0.788);
+}
+
+
+.training-deck {
+    box-shadow: 0 4px 8px 0 rgba(192, 35, 35, 0.788);
+    transition: 0.3s;
+    border-radius: 10px;
+    display: inline-block;
+
+    margin-top: 20px;
+    margin-left: 10px;
+
+    min-width: 7rem;
+    border: 1px solid white;
+}
+
+.training-deck:hover {
+    box-shadow: 0 8px 24px 0 rgba(192, 35, 35, 0.788);
+}
+
+.training-deck-image {
+    border-radius: 10px 10px 10px 10px;
+    height: auto;
+    object-fit: contain;
+}
+
+.training-deck-center {
+    box-shadow: 0 4px 8px 0 rgba(192, 35, 35, 0.788);
+    transition: 0.3s;
+    border-radius: 10px;
+    display: inline-block;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    min-width: 7rem;
+    border: 1px solid white;
+}
+
+.zoom {
+    transition: transform .6s;
+    max-width: 32rem;
+    height: auto;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+.zoom-center {
+    transition: transform .6s;
+    max-width: 32rem;
+    height: auto;
+    margin: 0 auto;
+}
+
+.zoom-center:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+.container {
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 0.2rem;
+}
+
+.training-text {
+    text-align: left;
+}

@@ -1,0 +1,296 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100");
+body { overflow-x: hidden; font-family: 'Montserrat',sans-serif; background-color: #1B1B1B; }
+
+p { line-height: 1.75; color: #dee2e6; }
+
+a { -webkit-transition: all 0.4s ease-in-out; -moz-transition: all 0.4s ease-in-out; -ms-transition: all 0.4s ease-in-out; -o-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out; color: #9E2525; }
+
+a:hover { color: #42638f; text-decoration: none; }
+
+.text-primary { color: #9E2525 !important; }
+
+hr { border-top: 1px solid #505b66; }
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Quantico', sans-serif; color: #9E2525; }
+
+dl, ol, ul { color: #f8f9fa; }
+
+code { color: #FFB369; }
+
+pre { overflow: auto; background-color: #19364E; border: 1px dashed #9E2525; padding: 4pt; color: #f8f9fa; }
+
+pre code { color: #FFB369; }
+
+b, strong { font-weight: bolder; }
+
+blockquote { background: #1B1B1B; border-left: 10px solid #9E2525; margin: 1.5em 10px; padding: 0.5em 10px; quotes: "“" "”" "‘" "’"; font-style: italic; }
+
+blockquote:before { color: #868e96; content: open-quote; font-size: 4em; line-height: 0.1em; margin-right: 0.25em; vertical-align: -0.4em; }
+
+blockquote:after { color: #868e96; content: close-quote; font-size: 4em; line-height: 0.1em; margin-right: 0.25em; vertical-align: -0.4em; }
+
+blockquote p { display: inline; font-size: 2em; }
+
+.sidebar p { line-height: 1.5; }
+
+.sidebar .avatar { border-radius: 100%; -webkit-border-radius: 100%; -moz-border-radius: 100%; border-width: 0.60em; border-style: solid; margin-right: 10px; margin-left: 10px; margin-top: 5px; }
+
+.pagebox { color: #868e96; }
+
+.wrapper { width: 100%; margin: 0 auto; }
+
+section { padding: 100px 0; }
+
+section h2.section-heading { font-size: 40px; margin-top: 0; margin-bottom: 15px; }
+
+section h3.section-subheading { font-size: 16px; font-weight: 400; font-style: italic; margin-bottom: 75px; text-transform: none; font-family: 'Montserrat',sans-serif; }
+
+@media (min-width: 768px) { section { padding: 20px 0; } .wrapper { max-width: 1400px; margin: 0 auto; } }
+
+::-moz-selection { background: #9E2525; text-shadow: none; }
+
+::selection { background: #9E2525; text-shadow: none; }
+
+img::selection { background: transparent; }
+
+img::-moz-selection { background: transparent; }
+
+.btn-secondary, .btn-dark { font-weight: 400; color: #f8f9fa; background-color: #343a40; border-color: #343a40; }
+
+.btn-secondary:hover, .btn-dark:hover { background-color: #42638f; border-color: #42638f; color: #f8f9fa; text-decoration: none; }
+
+@-webkit-keyframes fadeIn { from { opacity: 0; }
+  to { opacity: 1; } }
+
+@-moz-keyframes fadeIn { from { opacity: 0; }
+  to { opacity: 1; } }
+
+@keyframes fadeIn { from { opacity: 0; }
+  to { opacity: 1; } }
+
+table { background: #343a40; overflow: auto; width: 100%; margin: 0 auto; position: relative; margin-bottom: 20px; font-size: 0.6rem; }
+
+table * { position: relative; }
+
+table td, table th { padding-left: 8px; padding-right: 8px; color: #f8f9fa; }
+
+table thead tr { height: 60px; background: #1B1B1B; }
+
+table tbody tr { height: 45px; }
+
+.dropdown:hover > .dropdown-menu { display: block; }
+
+#mainNav { background-color: #212529; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2) !important; }
+
+#mainNav .navbar-toggler { font-size: 12px; right: 0; padding: 13px; text-transform: uppercase; color: white; border: 0; background-color: #9E2525; font-family: 'Montserrat', sans-serif; }
+
+#mainNav .navbar-brand { color: #9E2525; text-transform: uppercase; font-family: 'Montserrat', sans-serif; }
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover { color: #42638f; }
+
+#mainNav .navbar-nav .nav-item .nav-link { font-size: 90%; font-weight: 400; padding: 0.75em 0; letter-spacing: 1px; color: white; font-family: 'Montserrat', sans-serif; }
+
+#mainNav .navbar-nav .nav-item .nav-link:hover { color: #9E2525; }
+
+#mainNav .navbar-nav .dropdown-menu { background: #212529; opacity: 0.9; border-color: #343a40; }
+
+@media (min-width: 992px) { #mainNav { padding-top: 25px; padding-bottom: 25px; -webkit-transition: padding-top 0.3s, padding-bottom 0.3s; -moz-transition: padding-top 0.3s, padding-bottom 0.3s; transition: padding-top 0.3s, padding-bottom 0.3s; border: none; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2) !important; } #mainNav .navbar-brand { font-size: 3em; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; border-left: 15px solid #e9ecef; line-height: 0.6; padding-left: 15px; } #mainNav .navbar-nav .nav-item .nav-link { padding: 1.1em 1em !important; } #mainNav.navbar-page { padding-top: 25px; padding-bottom: 25px; background-color: #212529; } #mainNav.navbar-page .navbar-brand { font-size: 1.5em; line-height: 0.6; padding-left: 15px; border-left: 6px solid #e9ecef; } #mainNav.navbar-shrink { padding-top: 0; padding-bottom: 0; background-color: #212529; } #mainNav.navbar-shrink .navbar-brand { font-size: 1.5em; line-height: 0.6; padding-left: 15px; border-left: 6px solid #e9ecef; } }
+
+header.masthead { text-align: center; color: #dee2e6; background-repeat: no-repeat; background-attachment: scroll; background-position: center center; -webkit-background-size: auto; -moz-background-size: auto; -o-background-size: auto; background-size: auto; }
+
+header.masthead .intro-text { padding-top: 50px; padding-bottom: 50px; margin-top: 100px; }
+
+header.masthead .intro-text .intro-heading { font-size: 3em; font-weight: 400; line-height: 50px; font-family: 'Quantico', sans-serif; }
+
+header.masthead .intro-text .intro-sub { font-size: 1em; font-style: italic; line-height: 22px; margin-right: 10%; text-align: right; font-family: 'Montserrat', sans-serif; }
+
+@media (min-width: 768px) { header.masthead .intro-text { padding-top: 50px; padding-bottom: 10px; margin-top: 100px; } header.masthead .intro-text .intro-heading { font-size: 4em; font-weight: 600; line-height: 85px; font-family: 'Quantico', sans-serif; } header.masthead .intro-text .intro-sub { font-size: 1.3em; font-style: italic; line-height: 50px; margin-right: 10%; text-align: right; font-family: 'Montserrat', sans-serif; } }
+
+.content { padding-top: 100px; padding-bottom: 50px; background-image: none; }
+
+.postbox { background: #212529; padding-top: 40px; padding-bottom: 40px; padding-right: 40px; padding-left: 40px; margin-bottom: 40px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2) !important; border-radius: .25rem !important; max-width: auto; }
+
+.blog-container { margin: 0 auto; position: relative; padding: 0 20px; }
+
+.blog-container { max-width: 100%; }
+
+.blog-container.max-container { max-width: 100%; padding: 0; }
+
+@media (min-width: 1200px) { .blog-container { max-width: 80%; } table { font-size: 1rem; } }
+
+.btn { white-space: normal; }
+
+::-moz-selection { background: #42638f; text-shadow: none; }
+
+::selection { background: #42638f; text-shadow: none; }
+
+footer { padding: 25px 0; text-align: center; }
+
+footer a { color: white; }
+
+footer span.copyright { font-size: 90%; color: #fff; line-height: 40px; text-transform: none; font-family: 'Montserrat', sans-serif; }
+
+footer ul.quicklinks { font-size: 90%; line-height: 40px; margin-bottom: 0; text-transform: none; font-family: 'Montserrat', sans-serif; }
+
+ul.social-buttons { margin-bottom: 0; padding-bottom: 10px; }
+
+ul.social-buttons li a { text-align: center; font-size: 30px; line-height: 40px; display: block; width: 40px; height: 40px; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; color: white; border-radius: 12%; outline: none; }
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover { background-color: #42638f; }
+
+@keyframes fadeInDown { from { opacity: 0;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px); }
+  to { opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+.fadeInDown { -webkit-animation-name: fadeInDown; animation-name: fadeInDown; }
+
+.animated { -webkit-animation-duration: 2s; animation-duration: 2s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
+
+.animated.fast { -webkit-animation-duration: 1s; animation-duration: 1s; }
+
+@media (prefers-reduced-motion) { .animated { -webkit-animation: unset !important; animation: unset !important; -webkit-transition: none !important; transition: none !important; } }
+
+html, body, h1 { padding: 0; margin: 0; font-family: 'Quantico', sans-serif; }
+
+#app { background: #0a0a0a; height: 10vh; width: 100%; margin: 0; padding: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: rgba(0, 0, 0, 0); background-size: cover; background-position: center; z-index: 1; }
+
+#wrapper { text-align: center; }
+
+.sub { color: #64dcdc; letter-spacing: 1em; }
+
+/* Our mixin positions a copy of our text
+directly on our existing text, while
+also setting content to the appropriate
+text set in the data-text attribute. */
+.glitch { position: relative; color: white; font-size: 2.0em; letter-spacing: .2em; /* Animation provies a slight random skew. Check bottom of doc for more information on how to random skew. */ animation: glitch-skew 1s infinite linear alternate-reverse; }
+
+.glitch::before { content: attr(data-text); position: absolute; top: 0; left: 0; width: 100%; height: 100%; left: 5px; text-shadow: -3px 0 #9E2525; /* Creates an initial clip for our glitch. This works in a typical top,right,bottom,left fashion and creates a mask to only show a certain part of the glitch at a time. */ clip: rect(44px, 450px, 56px, 0); /* Runs our glitch-anim defined below to run in a 5s loop, infinitely, with an alternating animation to keep things fresh. */ animation: glitch-anim 5s infinite linear alternate-reverse; }
+
+.glitch::after { content: attr(data-text); position: absolute; top: 0; left: 0; width: 100%; height: 100%; left: -2px; text-shadow: -2px 0 #00fff9, 2px 2px #9E2525; animation: glitch-anim2 1s infinite linear alternate-reverse; }
+
+.glitch-h2 { position: relative; color: white; font-size: 1.5em; letter-spacing: .2em; /* Animation provies a slight random skew. Check bottom of doc for more information on how to random skew. */ animation: glitch-skew 1s infinite linear alternate-reverse; }
+
+.glitch-h2::before { content: attr(data-text); position: absolute; top: 0; left: 0; width: 100%; height: 100%; left: 5px; text-shadow: -3px 0 #9E2525; /* Creates an initial clip for our glitch. This works in a typical top,right,bottom,left fashion and creates a mask to only show a certain part of the glitch at a time. */ clip: rect(44px, 450px, 56px, 0); /* Runs our glitch-anim defined below to run in a 5s loop, infinitely, with an alternating animation to keep things fresh. */ animation: glitch-anim 5s infinite linear alternate-reverse; }
+
+.glitch-h2::after { content: attr(data-text); position: absolute; top: 0; left: 0; width: 100%; height: 100%; left: -2px; text-shadow: -2px 0 #00fff9, 2px 2px #9E2525; animation: glitch-anim2 1s infinite linear alternate-reverse; }
+
+/* Creates an animation with 20 steaps. For each step, it calculates 
+a percentage for the specific step. It then generates a random clip
+box to be used for the random glitch effect. Also adds a very subtle
+skew to change the 'thickness' of the glitch.*/
+@keyframes glitch-anim { 0% { clip: rect(22px, 9999px, 11px, 0);
+    transform: skew(0.35deg); }
+  5% { clip: rect(47px, 9999px, 29px, 0);
+    transform: skew(0.12deg); }
+  10% { clip: rect(35px, 9999px, 100px, 0);
+    transform: skew(0.64deg); }
+  15% { clip: rect(90px, 9999px, 15px, 0);
+    transform: skew(0.17deg); }
+  20% { clip: rect(62px, 9999px, 88px, 0);
+    transform: skew(0.25deg); }
+  25% { clip: rect(91px, 9999px, 39px, 0);
+    transform: skew(0.07deg); }
+  30% { clip: rect(55px, 9999px, 48px, 0);
+    transform: skew(0.41deg); }
+  35% { clip: rect(38px, 9999px, 11px, 0);
+    transform: skew(0.15deg); }
+  40% { clip: rect(46px, 9999px, 3px, 0);
+    transform: skew(0.23deg); }
+  45% { clip: rect(97px, 9999px, 70px, 0);
+    transform: skew(0.94deg); }
+  50% { clip: rect(66px, 9999px, 53px, 0);
+    transform: skew(0.72deg); }
+  55% { clip: rect(14px, 9999px, 87px, 0);
+    transform: skew(0.78deg); }
+  60% { clip: rect(20px, 9999px, 52px, 0);
+    transform: skew(0.01deg); }
+  65% { clip: rect(53px, 9999px, 58px, 0);
+    transform: skew(0.38deg); }
+  70% { clip: rect(94px, 9999px, 96px, 0);
+    transform: skew(0.72deg); }
+  75% { clip: rect(28px, 9999px, 23px, 0);
+    transform: skew(0.24deg); }
+  80% { clip: rect(74px, 9999px, 60px, 0);
+    transform: skew(0.68deg); }
+  85% { clip: rect(64px, 9999px, 16px, 0);
+    transform: skew(0.23deg); }
+  90% { clip: rect(45px, 9999px, 90px, 0);
+    transform: skew(0.68deg); }
+  95% { clip: rect(53px, 9999px, 48px, 0);
+    transform: skew(0.59deg); }
+  100% { clip: rect(81px, 9999px, 62px, 0);
+    transform: skew(0.45deg); } }
+
+@keyframes glitch-anim2 { 0% { clip: rect(95px, 9999px, 30px, 0);
+    transform: skew(0.19deg); }
+  5% { clip: rect(66px, 9999px, 41px, 0);
+    transform: skew(0.83deg); }
+  10% { clip: rect(57px, 9999px, 31px, 0);
+    transform: skew(0.94deg); }
+  15% { clip: rect(74px, 9999px, 97px, 0);
+    transform: skew(0.76deg); }
+  20% { clip: rect(5px, 9999px, 54px, 0);
+    transform: skew(0.35deg); }
+  25% { clip: rect(77px, 9999px, 46px, 0);
+    transform: skew(0.39deg); }
+  30% { clip: rect(88px, 9999px, 37px, 0);
+    transform: skew(0.28deg); }
+  35% { clip: rect(90px, 9999px, 74px, 0);
+    transform: skew(0.65deg); }
+  40% { clip: rect(69px, 9999px, 54px, 0);
+    transform: skew(0.77deg); }
+  45% { clip: rect(39px, 9999px, 71px, 0);
+    transform: skew(0.18deg); }
+  50% { clip: rect(15px, 9999px, 85px, 0);
+    transform: skew(0.18deg); }
+  55% { clip: rect(93px, 9999px, 24px, 0);
+    transform: skew(0.88deg); }
+  60% { clip: rect(63px, 9999px, 16px, 0);
+    transform: skew(0.53deg); }
+  65% { clip: rect(72px, 9999px, 12px, 0);
+    transform: skew(0.3deg); }
+  70% { clip: rect(53px, 9999px, 36px, 0);
+    transform: skew(0.7deg); }
+  75% { clip: rect(76px, 9999px, 97px, 0);
+    transform: skew(0.78deg); }
+  80% { clip: rect(42px, 9999px, 65px, 0);
+    transform: skew(0.93deg); }
+  85% { clip: rect(14px, 9999px, 71px, 0);
+    transform: skew(0.96deg); }
+  90% { clip: rect(5px, 9999px, 7px, 0);
+    transform: skew(0.2deg); }
+  95% { clip: rect(47px, 9999px, 57px, 0);
+    transform: skew(0.42deg); }
+  100% { clip: rect(43px, 9999px, 11px, 0);
+    transform: skew(0.97deg); } }
+
+@keyframes glitch-skew { 0% { transform: skew(3deg); }
+  10% { transform: skew(5deg); }
+  20% { transform: skew(-1deg); }
+  30% { transform: skew(-4deg); }
+  40% { transform: skew(5deg); }
+  50% { transform: skew(5deg); }
+  60% { transform: skew(0deg); }
+  70% { transform: skew(-3deg); }
+  80% { transform: skew(1deg); }
+  90% { transform: skew(1deg); }
+  100% { transform: skew(3deg); } }
+
+.grain-header:after { animation: grain 1s steps(50) infinite; background-image: url(../images/grainybackground.jpg); content: ""; height: 300%; left: -50%; opacity: 0.5; position: fixed; top: -110%; width: 300%; }
+
+@keyframes grain { 0%, 100% { transform: translate(0, 0); }
+  10% { transform: translate(-5%, -10%); }
+  20% { transform: translate(-15%, 5%); }
+  30% { transform: translate(7%, -25%); }
+  40% { transform: translate(-5%, 25%); }
+  50% { transform: translate(-15%, 10%); }
+  60% { transform: translate(15%, 0%); }
+  70% { transform: translate(0%, 15%); }
+  80% { transform: translate(3%, 35%); }
+  90% { transform: translate(-10%, 10%); } }
+
+/*# sourceMappingURL=main.min.css.map */

@@ -1,0 +1,50 @@
+* {
+box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+float: left;
+width: 50%;
+padding: 10px;
+}
+
+.column_full {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    }
+
+.column_left {
+    float: left;
+    width: 75%;
+    padding: 10px;
+    }
+
+.column_right {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    }
+    
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.training-deck-image {
+    border-radius: 10px 10px 10px 10px;
+    height: auto;
+    object-fit: contain;
+}
+
+h3 {
+    text-align: center;
+}
